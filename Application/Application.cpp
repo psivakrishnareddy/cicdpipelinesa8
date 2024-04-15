@@ -1,6 +1,6 @@
 // Application.cpp : Defines the exported functions for the DLL.
 //
-
+#include <iostream>
 #include "framework.h"
 #include "Application.h"
 
@@ -17,6 +17,7 @@ int CoolClass::Calc(int a, int b)
     }
     else
     {
+        std::cout << "Returing value\n";
         return a + b;
     }
     
